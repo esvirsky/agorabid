@@ -1,0 +1,62 @@
+/* LOGIN */
+
+#divRegisterInfo { float: left; position: relative; width: 567px; height: 144px; font: 11pt Georgia; }
+#divRegisterInfo .SectionBoxHeader { margin-top: -3px; margin-bottom: 7px; font: bold 18pt Georgia; text-decoration: none; }
+#divRegisterInfo p { margin: 0px; margin-left: 10px; }
+#divRegisterButton { position: absolute; bottom: 10px; right: 10px; }
+
+#divLogin {	float: right; width: 283px;	}
+#divLogin table { margin-bottom: 3px; }
+#divLogin label { width: 73px; }
+#divLogin input { width: 200px; }
+#divLogin input#chkRemember { float: left; width: 13px; padding: 0px; margin: 0px; margin-top: 1px;}
+#divLogin label#lblRemember { float: left; width: 100px; display: inline; margin-left: 4px;}
+#divLogin button { margin-top: 0px; }
+
+#divLogin #divForgotLinks { float: right; margin-bottom: -4px; text-align: right; }
+#divLogin #divForgotLinks a { font-size: 9pt; color:#3a3a3a; }
+#divLogin #divForgotLinks div { margin-bottom: 4px; }
+
+/* REGISTRATION */
+
+#divRegister { margin: 0px auto; width: 353px; }
+#divRegister form label { width: 143px; }
+#divRegister form input { width: 200px; }
+#divRegister form label.error {  width: 200px; }
+#divRegister #trPassword td, #trEmail td { padding-top: 10px }
+
+/* CHANGE EMAIL */
+
+#divChangeEmail { margin: 0px auto; width: 313px; }
+#divChangeEmail form label { width: 103px; }
+#divChangeEmail form input { width: 200px; }
+#divChangeEmail form label.error {  width: 200px; }
+#divChangeEmail #divLogoutWarningButtons { float: right; }
+
+/* CHANGE PASSWORD */
+
+#divChangePassword { margin: 0px auto; width: 353px; }
+#divChangePassword form label { width: 143px; }
+#divChangePassword form input { width: 200px; }
+#divChangePassword form label.error {  width: 200px; }
+
+/* FORGOT PASSWORD */
+
+#divForgotPassword { margin: 0px auto; width: 283px; }
+#divForgotPassword form label { width: 73px; }
+#divForgotPassword form input { width: 200px; }
+#divForgotPassword form label.error { width: 200px; }
+
+/* FORGOT USERNAME */
+
+#divForgotUsername { margin: 0px auto; width: 263px; }
+#divForgotUsername form label { width: 53px; }
+#divForgotUsername form input { width: 200px; }
+#divForgotUsername form label.error { width: 200px; }
+
+/* RESET PASSWORD */
+
+#divResetPassword { margin: 0px auto; width: 353px; }
+#divResetPassword form label { width: 143px; }
+#divResetPassword form input { width: 200px; }
+#divResetPassword form label.error {  width: 200px; }

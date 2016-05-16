@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: http://www.agorabid.com/ab_sitemap.xml

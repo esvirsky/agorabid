@@ -1,0 +1,113 @@
+/* SUBMIT */
+
+#divSRSubmit { width: 606px; margin: 0px auto; }
+#divSRSubmit table { margin-left: 5px; }
+
+#divSRSubmit1 table input { width: 200px; }
+#divSRSubmit1 table label { width: 170px; }
+#divSRSubmit1 table label.error {  width: 200px; }
+#divSRSubmit1 textarea { width: 398px; height: 200px; }
+#divSRSubmit1 select { width: 300px; }
+#divSRSubmit1 .TextareaLabel { margin-bottom: 188px; }
+#divSRSubmit1 div.mcdropdown { width: 396px; }
+#divSRSubmit1 #btnNext { float: right; }
+
+#divSRSubmit2 table label { width: 100px; }
+#divSRSubmit2 table label.error {  width: 200px; }
+#divSRSubmit2 #tblLocationWhere { margin-bottom: 0px; }
+#divSRSubmit2 #tblLocationWhere label { width: 280px; }
+#divSRSubmit2 #divLocationAddress { margin-left: 10px; }
+#divSRSubmit2 #divLocationAddress #pLocationAddress { margin: 0px 0px 10px 0px; font-size: 9pt; }
+#divSRSubmit2 #divLocationAddress #pLocationAddressPrivacy { margin: 15px 0px 0px 0px; font-size: 8pt; }
+#divSRSubmit2 #tblLocationAddress { margin-left: 20px; }
+#divSRSubmit2 #tblLocationAddress input { width: 200px; }
+#divSRSubmit2 #tblLocationAddress select { width: 200px; }
+
+/* DETAILS */
+
+#divSRDetails .SectionBox { margin-bottom: 10px; }
+
+#divSRDetails textarea { width: 600px; height: 80px; }
+#divSRDetails .TextareaLabel { margin-bottom: 71px; }
+
+#divSRDetails #divLeftInfo { float: left; width: 440px; }
+#divSRDetails #divInfo #tdTitle { font-weight: bold; }
+
+#divSRDetails .SRStatus { color: #a00; }
+#divSRDetails .AddressRow td { padding-top: 3px; padding-bottom: 3px; }
+
+#divSRDetails #divMap { float: right; margin-bottom: 10px; }
+#divSRDetails #divMapContainer { width: 450px; height: 450px; border: 1px solid; }
+#divSRDetails #divMapNote { margin-top: 3px; text-align: center; }
+
+#divSRDetails #divBids { display: none; }
+#divSRDetails #divBids .SectionBox { margin-bottom: 7px; width: 848px;}
+#divSRDetails #divBids .SectionBox .tblBidInfo { width: 100%; margin-bottom: 2px; }
+#divSRDetails #divBids .SectionBox .tblBidInfo td { padding-bottom: 3px;  }
+#divSRDetails #divBids .SectionBox .tblBidInfo button {  margin-top: 0px;  }
+#divSRDetails #divBids .SectionBox .tblBidInfo .tdStatus {  text-align: right; padding-right: 0px; }
+
+#divSRDetails #divBids .Precision { font-size: 8pt; font-weight: bold; }
+#divSRDetails #divBids .AcceptedStatus { color: #0a0; font-weight: bold; }
+
+#divSRDetails #divBids .BidCreatorUsername { float: left; margin-right: 5px; }
+#divSRDetails #divBids .BidCreatorRating { float: left; }
+
+#divSRDetails .MessageThread .Date { font-size: 8pt; padding-top: 2px; }
+#divSRDetails .MessagesToggle { margin-bottom: 0px; }
+#divSRDetails .MessageThreadReplyButton { margin-top: 10px; }
+#divSRDetails .FormCreateMessage { margin-top: 10px; }
+
+#divSRDetails .PublicMessageCheckbox { margin-top: 7px; margin-left:0px; }
+#divSRDetails .CreateThreadMessage { display: none; }
+
+#divSRDetails #divBids .BidMessageContainer { display: none; margin-top: 10px; }
+
+#divSRDetails #divMessages { display: none; }
+#divSRDetails #divMessages .MessageThread { display: none; margin-top: 10px; }
+
+#divSRDetails #divCreateSRMessage { width: 687px; }
+
+#divSRDetails #divCreateBid { width: 687px; }
+#divSRDetails #divCreateBid input { width: 200px; }
+#divSRDetails #divCreateBid label { width: 78px; }
+#divSRDetails #divCreateBid label.error { width: 170px; }
+#divSRDetails #divCreateBid select { width: 602px; }
+#divSRDetails #divCreateBid .RadioBox { width: 13px; }
+#divSRDetails #divCreateBid .PrecisionColumn { width: 300px; padding: 0px 150px 10px 0px; text-align: right;  }
+#divSRDetails #divCreateBid .PrecisionLabel { display: inline; padding-right: 7px; text-align: right; }
+#divSRDetails #divCreateBid .PrecisionLabel span { display: none; }
+#divSRDetails #divCreateBid .PrecisionRadioLabel { display: inline; font-weight: normal; font-size: 9pt; }
+#divSRDetails #divCreateBid .LocationsRow label.error { width: 400px; }
+
+#divSRDetails #divServiceRequestModify { margin: 10px auto 0px auto; width: 241px; }
+
+/* SEARCH */
+
+#divSRSearch div.mcdropdown { width: 396px; background-color: white;}
+#divSRSearch #address { width: 300px; }
+#divSRSearch #radius { width: 30px; }
+#divSRSearch button { margin-top: 0px; }
+
+#divSRSearch #everywhere { width: 13px; float: left; margin: 0px; }
+#divSRSearch #lblEverywhere { float: left; margin-left: 4px; }
+#divSRSearch #tdEverywhere { padding-left: 408px; }
+
+#divSRSearch #ulCategoryTree { display: none; } /* prevents it from showing up for a split second on loading */
+
+#divSRSearch #divSearchResultsSummary { margin-top: 5px; font-size: 10pt; font-weight: normal; text-align: center; padding: 3px; }
+#divSRSearch #divSearchResults { margin-top: 5px; }
+#divSRSearch #divSearchResultsList { float: left; width: 540px; }
+#divSRSearch #divSearchResultsList .SectionBox { margin-bottom: 7px; }
+#divSRSearch #divSearchResultsNotFound { margin-top: 10px; font-size: 12pt; text-align: center; }
+#divSRSearch #divResultsNavigation1 { margin-bottom: 5px; width: 540px; }
+#divSRSearch .ResultsPrev { float: left; }
+#divSRSearch .ResultsNext { float: right; }
+
+#divSRSearch #divMap { float: right; margin-bottom: 10px; }
+#divSRSearch #divMapContainer { width: 350px; height: 350px; border: 1px solid; }
+#divSRSearch #divMapNote { margin-top: 3px; text-align: center; }
+
+#divSRSearch .DescriptionText { font-size: 9pt; padding-top: 1px; }
+#divSRSearch .Date { font-size: 8pt; padding-top: 1px; }
+#divSRSearch .AddressRow td { padding-top: 2px; }

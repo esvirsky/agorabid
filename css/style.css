@@ -1,0 +1,96 @@
+/* COMMON HTML */
+
+body { font-family: Verdana, Arial, sans-serif; }
+button { border: 1px solid;	cursor: pointer; }
+input { border: 1px solid; margin: 0px; }
+input[type='checkbox'], input[type='radio'] { border: none; padding: 0px; }
+input[disabled='disabled']{ background-color: #d4d0c8; }
+textarea { border: 1px solid; overflow:auto; }
+select { border: 1px solid; }
+a img { border: none; }
+
+h1 { margin-bottom: 12px; font: bold 13pt Verdana; text-decoration: underline; color: #000; }
+h2 { margin-bottom: 12px; font: bold 11pt Verdana; color: #000; }
+
+/* COMMON FORM */
+
+table { margin: 0px -7px -7px 0px; }
+table td { padding-bottom: 7px; padding-right: 7px; vertical-align: bottom; }
+table button { float: right; margin-top: 3px; }
+label.error { margin: 3px 0px 2px 0px; color: #cf0000; font-weight: bold; }
+label { margin-bottom: 4px; display: block; font-size: 8pt; font-weight: bold; }
+
+/* HEADER */
+
+#divIE6 { display: none; }
+#divHeader { margin: 0px auto;	width: 926px; height: 90px;	position: relative; }
+#divHeader .UsernameSpan { font-size: 8pt; }
+#divHeader #divLogo { position: relative; top: 36px; }
+#divHeader #divMenu { position: absolute; top: 30px; right: 0px; }
+#divHeader #divAccount { position: absolute; top: 9px; right: 10px; font-size: 9pt; }
+#divHeader #divAccount a { color:#6a6a6a; text-decoration:none; }
+#divHeader #divValidationErrors, #divTopErrorMessage { margin-top: 10px; font-size: 11pt; color: #cf0000; text-align: center; }
+
+/* CONTENT */
+
+#divContent { font-size: 10pt; margin: 10px auto; padding: 10px; width: 904px; background-color: #f2eee5; border: 1px solid #aaa; }
+#divTopMessage { width: 400px; margin: 0px auto 10px auto; padding: 10px; font-size: 11pt; font-weight: bold; text-align: center; color: #009f00; }
+
+/* FOOTER */
+
+#divFooter { font-size: 9pt; margin: 0px auto; width: 926px; height: 40px; background-image:url('/images/footer.png'); }
+#divFooterLinks { text-align: center; padding-top: 12px; }
+#divFooterLinks a {	color:#000; text-decoration:none; }
+#divCopyright { font-size: 9pt;	margin: 5px auto 0px auto; width: 926px; height: 15px; text-align: center; }
+
+/* COMMON CLASSES */
+
+.Clear { clear: both; height: 0; visibility: hidden; }
+.ClearAfter:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+
+.Section { margin-bottom: 10px; }
+.SectionBox { padding: 10px; border: 1px solid #aaa; background-color: #f4fff7; }
+
+.Header { margin-bottom: 12px; font: bold 13pt Verdana; text-decoration: underline; color: #000; }
+.SubHeader1 { margin-bottom: 12px; font: bold 11pt Verdana; text-decoration: underline; color: #000; }
+.SubHeader2 { margin-bottom: 10px; font: bold 10pt Verdana; text-decoration: underline; color: #000; }
+.SubHeader3 { margin-bottom: 10px; font: normal 10pt Verdana; text-decoration: underline; color: #000; }
+
+.BigButton { width: 157px; height: 57px; text-align: center; }
+.BigButton a { text-decoration:none; color:#fff; font: bold 30px futura; }
+
+.FormError { margin-bottom: 7px; margin-left: 30px; color: #cf0000; }
+
+.RequiredStar { color: #af0000; }
+
+.InfoForm label { margin-top: 2px; text-align: right; }
+.InfoForm table { margin-bottom: 0px; }
+.InfoForm table td { vertical-align: top; padding-bottom: 0px; }
+.InfoForm a { color: #555; }
+
+.Foldout { margin-bottom: 10px; font: bold 12pt georgia; }
+.Foldout a { cursor: pointer; }
+.Foldout span { text-decoration: underline; }
+.Foldout .Notification, .SubFoldout .Notification { text-decoration: none; font-size: 9pt; font-weight: bold; color: #a00; }
+.SubFoldout { margin-bottom: 10px; }
+.SubFoldout a { cursor: pointer; }
+.SubFoldout img { margin-bottom: -1px; }
+.SubFoldout span { font: normal 9pt Verdana; text-decoration: underline; color:#5a5a5a;}
+
+.SubLabel { font-size: 7pt; }
+.SubmitButton { margin-top: 10px; }
+.HeaderRow td { padding-bottom: 0px; }
+
+.InfoTable { width: 100%; margin: 0px; border-width: 0 0 1px 1px; border-style: solid; border-color: #000; }
+.InfoTable td { border-width: 1px 1px 0 0; border-style: solid; padding: 3px; vertical-align: top; }
+.InfoTable th { border-width: 1px 1px 0 0; border-style: solid; background-color: #ffc104; }
+.InfoTable .tr0 { background-color: #fff; }
+.InfoTable .tr1 { background-color: #eee; }
+.InfoTable td a { color: #000; }
+.InfoTable td a img { cursor: pointer; }
+
+.RatingLink { text-decoration: none; }
+.RatingStars { float: left; margin-right: 3px; margin-bottom: -2px; }
+.RatingCount { float: left; margin-top: 2px; font-size: 8pt; }
+
+.PrivacyNotice { font-size: 8pt; }

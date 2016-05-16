@@ -1,0 +1,65 @@
+/* HOME */
+
+#divHome #divAbout { color:#3a3a3a; margin: 0px 0px 15px 100px; }
+#divHome #divAboutWelcome { font-size: 20pt; font-weight: bold; }
+#divHome #divAboutInfo { font-size: 11pt; margin-left: 20px; }
+
+#divHome .InfoBox { margin-top: 15px; width: 420px; border: 1px outset #a29e95; background-color: #d2cec5; }
+#divHome .InfoBox, x:-moz-any-link { border-color: #000; }
+#divHome .InfoBox a { color: #555; }
+#divHome .InfoBoxHeader { padding-bottom: 5px; background-color: #d2cec5; border-bottom: 1px dotted; }
+#divHome .InfoBoxHeaderText { margin: 0px; padding: 6px 0px 0px 15px; font: bold 22pt Georgia; color: #000;  }
+#divHome .InfoBoxHeader hr { height: 3px; margin: 0px 3px 0px 6px; border: 1px solid #808080; }
+#divHome .InfoBoxHeader hr, x:-moz-any-link { height: 5px; }
+#divHome .InfoBoxContent { margin: 0px; position: relative; font: normal 12pt Georgia; color: #000; background-color: #fff; }
+#divHome .InfoBoxContent ol { float: left; margin-top: 0px; padding-left: 35px; padding-top: 5px; }
+#divHome .InfoBoxContent ol li { margin-top: 5px; }
+#divHome .InfoBoxContent .ViewTutorial { position: absolute; bottom: 12px; right: 10px; font-size: 10pt; }
+#divHome .BigButton { margin-top: 7px; float: right; }
+
+#divHome #divNewSR { float: left; margin-left: 20px; }
+#divHome #divNewSRHeader hr { background-color: #ffc104; }
+#divHome #divNewSRContent { height: 110px; }
+
+#divHome #divSearchSR { float: left; margin-left: 20px; }
+#divHome #divSearchSRHeader hr { background-color: #ffea00; }
+#divHome #divSearchSRContent { height: 110px; }
+
+/* MESSAGE */
+#divMessage { width: 500px;	margin: 0px auto; padding-bottom: 10px; text-align: center; }
+
+/* CONFIRM */
+#divGeneralConfirm { width: 500px;	margin: 0px auto; padding-bottom: 10px;  }
+#divGeneralConfirm #divButtons { text-align: center; }
+#divGeneralConfirm #divButtons button { width: 75px; }
+
+/* ABOUT */
+#divGeneralAbout ol { list-style-type: none; }
+
+/* DIRECTORY */
+#divGeneralDirectory li { margin-top: 2px; }
+#divGeneralDirectory .ChildrenCategoryNodes { font-size: 8pt; }
+#divGeneralDirectory #divCategories { margin-bottom: 10px; }
+
+/* TUTORIAL */
+#divGeneralTutorial img { border: 1px solid; }
+#divGeneralTutorial .InfoImage { border: none; }
+#divGeneralTutorial ol { font-weight: bold; }
+#divGeneralTutorial ol .NormalFontSpan { font-weight: normal; }
+
+/* LANDING */
+#divLandingPage p { margin: 0px; }
+#divLandingPage .LandingReviewsTable { margin-left: 10px; margin-bottom: 0px; }
+#divLandingPage .LandingReviewsTable td { padding-bottom: 3px; }
+#divLandingPage .LandingServiceProvider { margin-bottom: 10px; }
+#divLandingPage #divServiceProviders { padding-bottom: 0px; }
+#divLandingPage .LandingFindToday { margin-bottom: 10px; font: bold 14pt Verdana; text-align: center; }
+#divLandingPage #divTutorial ol { padding-left: 30px; margin-top: 3px; margin-bottom: 0px; }
+
+#divLandingPage .BigAdText { margin-top: 5px; margin-bottom: 15px; font-size: 20pt; font-weight: bold; color: #009900; }
+#divLandingPage .MediumAdText { margin-bottom: 10px; font-size: 13pt; font-weight: bold; }
+#divLandingPage .DescriptionText { font-size: 10pt; color: #660066; }
+#divLandingPage .FriendlyImage { margin-left: -11px; margin-top: -11px; }
+
+/* ARTICLE */
+#divGeneralArticle .SectionBox { background-color: #f6fff9 }

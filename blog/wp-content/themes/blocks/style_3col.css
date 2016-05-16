@@ -1,0 +1,59 @@
+img {
+	max-width:500px;
+}
+#main {
+	width:572px;
+}
+#sidebar {
+	width:318px;
+	overflow:hidden;
+}
+#sidebar_right {
+	float:right;
+	width:184px;
+	overflow:hidden;
+}
+#sidebar_left {
+	float:left;
+	width:124px;
+	margin-right:10px;
+}
+#searchbox .textfield {
+	width:298px;
+}
+#respond #comment {
+	width:354px !important;
+	width:353px;
+}
+#comments .children #commentform #comment {
+	width:334px !important;
+	width:331px;
+}
+#comments .children .children #commentform #comment {
+	width:314px !important;
+	width:309px;
+}
+#comments .children .children .children #commentform #comment {
+	width:294px !important;
+	width:287px;
+}
+#comments .children .children .children .children #commentform #comment {
+	width:274px !important;
+	width:265px;
+}
+#comments .children .children .children .children .children #commentform #comment {
+	width:254px !important;
+	width:243px;
+}
+#comments .children .children .children .children .children .children #commentform #comment {
+	width:234px !important;
+	width:221px;
+}
+#comments .children .children .children .children .children .children .children #commentform #comment {
+	width:214px !important;
+	width:199px;
+}
+#comments .children .children .children .children .children .children .children .children #commentform #comment {
+	width:194px !important;
+	width:177px;
+}

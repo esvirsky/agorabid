@@ -1,0 +1,34 @@
+small, 
+.small, 
+#footer, 
+#header .content #tagline, 
+#header .meta, 
+.post .meta, 
+#searchbox .operation, 
+#gotop, 
+#comments .date, 
+#comments .items, 
+#commentform .info, 
+#submit, 
+.widget h3, 
+#trackbacks #trackbacks_show, 
+#trackbacks #trackbacks_hide, 
+#pagenavi, 
+#postnavi, 
+#commentnavi, 
+.w3c, 
+.more-link, 
+#search_submit, 
+#top {
+	font-size:12px;
+}
+.w3c {
+	font-size:12px;
+}
+#menubar li a {
+	padding:5px 9px !important;
+	padding:6px 9px;
+}
+*+html #menubar li a {
+	padding:6px 9px !important;
+}

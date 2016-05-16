@@ -1,0 +1,119 @@
+/* COMMON */
+
+#divUserInfoBreadCrumbs { margin-bottom: 10px; }
+#divUserInfoBreadCrumbs a { font-size: 9pt; color:#5a5a5a; text-decoration:none; font-weight: bold; }
+#divUserInfoBreadCrumbs a.Incomplete { font-weight: normal; cursor: default; }
+
+/* INFO */
+
+#divUserInfo { margin: 0px auto; width: 605px; }
+#divUserInfo table input { width: 200px; }
+#divUserInfo textarea { width: 400px; height: 100px; }
+#divUserInfo .TextareaLabel { margin-bottom: 91px; }
+#divUserInfo #divBuyerInfo label { width: 113px; }
+#divUserInfo #divBuyerInfo label.error {  width: 200px; }
+#divUserInfo #divSellerInfo label { width: 173px; }
+#divUserInfo #divSellerInfo label.error {  width: 200px; }
+
+#divUserInfo #tblUserType { margin-bottom: 7px;}
+#divUserInfo #lblUserType { width: 113px; }
+#divUserInfo #tdUserTypeInputGroup label { margin-right: 10px; display: inline; font-size: 10pt; font-weight: normal; }
+#divUserInfo #tdUserTypeInputGroup input { margin-right: 1px; width: 13px; }
+
+/* LOCATION MANAGER */
+
+#divLocationTemplate { display: none; }
+#divLocationManager .SectionBox { width: 836px; margin: 0px auto 10px auto; }
+#divLocationManager select { width: 201px; }
+#divLocationManager table td { width: 200px; }
+#divLocationManager table input { width: 200px; }
+#divLocationManager table textarea { width: 618px; height: 50px; }
+#divLocationManager table label { display: inline;}
+#divLocationManager table label.error { display: block; float: right; }
+#divLocationManager table label.PrimaryLocationLabel { float: left; width: 112px; }
+#divLocationManager table input.primaryCheckbox { width: 13px; }
+#divLocationManager table button { float: none; }
+#divLocationManager .ValidationError { color: #af0000; }
+
+#frmLocationManager #btnAddLocation { width: 160px; margin: 0px 46px 10px 23px; display: block; }
+#frmLocationManager .FormError { font-size: 13pt; }
+
+/* CATEGORY MANAGER */
+
+#divCategoryManager { width: 500px; margin: 0px auto; }
+#divCategoryManager ul { list-style-type: none; padding: 0px; margin: 0px; }
+#divCategoryManager li { clear: both; padding-top: 5px; }
+#divCategoryManager li ul { padding: 0 0 0 20px; margin: 0; }
+#divCategoryManager #ulCategoryTree img.arrow { padding: 2px 0 0 0; border: 0; width: 20px; }
+#divCategoryManager #ulCategoryTree label { cursor: pointer; font-weight: bold; float: left; display: inline; white-space: nowrap; }
+#divCategoryManager #ulCategoryTree label.hover { color: red; }
+#divCategoryManager #ulCategoryTree li .arrow { width: 16px; height: 16px; padding: 0; margin: 0; cursor: pointer; float: left; background: transparent no-repeat 0 3px; }
+#divCategoryManager #ulCategoryTree li .collapsed { background-image: url(/images/collapsed.gif); }
+#divCategoryManager #ulCategoryTree li .expanded { background-image: url(/images/expanded.gif); }
+#divCategoryManager #ulCategoryTree li .checkbox { width: 16px; height: 16px; padding: 0; margin: 0; cursor: pointer; float: left;
+    background: transparent no-repeat 0 2px; background-image: url(/images/check0.gif); }
+#divCategoryManager #ulCategoryTree li .checked { background-image: url(/images/check2.gif); }
+#divCategoryManager #ulCategoryTree li .half_checked { background-image: url(/images/check1.gif); }
+
+/* AUTO NOTIFY */
+
+#divNotificationManager { width: 400px; margin: 0px auto;} 
+#divNotificationManager #divNotifications { width: 312px; margin-bottom: 10px; }
+#divNotificationManager #divNotifications label { width: 290px; }
+#divNotificationManager #divSRNotify { margin-top: 10px; }
+#divNotificationManager #divSRNotify table { margin-left: 20px; margin-top: 8px; }
+#divNotificationManager #divSRNotify table td { padding-bottom: 4px; }
+#divNotificationManager #divSRNotify label.error { width: 100px; }
+#divNotificationManager #divSRNotify #txtRadius { width: 25px; margin-left: 5px; }
+#divNotificationManager #divSRNotify #tdRadius { padding-bottom: 4px; }
+
+/* DETAILS */
+
+.UserDetails #spanUsername { font-size: 23px; font-weight: normal; }
+.UserDetails .SectionBox { margin-bottom: 10px; }
+
+#divBuyerDetails label { width: 70px; }
+
+#divSellerDetails #divInfo table { width: 750px; }
+
+#divSellerDetails #divInfo .CategoryColumn { font-size: 8pt; padding-top: 2px; padding-bottom: 2px; }
+#divSellerDetails #divInfo #divUserMain a { color: #555; }
+#divSellerDetails #divInfo #divUserMain #tdRatingStars { padding-bottom: 11px; }
+
+#divSellerDetails #divLocations .SectionBox { margin-bottom: 5px; }
+#divSellerDetails #divLocations table { width: 420px; table-layout: fixed; }
+#divSellerDetails #divLocations .LocationDetails { display: none; }
+#divSellerDetails #divLocations #divLocationList { float: left; margin-right: 10px;}
+#divSellerDetails #divLocations #mapLocations { float: left; width:450px; height:450px; border: 1px solid; }
+#divSellerDetails #divLocations .LocationControls td { padding-top: 5px; }
+#divSellerDetails #divLocations .LocationDetailsToggle { margin: 5px 0px 0px 0px; }
+
+#divSellerDetails #divReviews .ReviewTitle { font-weight: bold; font-size: 11pt; margin-bottom: 5px; }
+#divSellerDetails #divReviews table { float: left; margin: 0px ; }
+
+/* CREATE REVIEW */
+
+#divUserCreateReview { margin: 0px auto; width: 513px; }
+#divUserCreateReview table input { width: 200px; }
+#divUserCreateReview table label { width: 103px; }
+#divUserCreateReview table label.error {  width: 200px; }
+#divUserCreateReview .TextareaLabel { margin-bottom: 188px; }
+#divUserCreateReview textarea { width: 400px; height: 200px; }
+
+/* MANAGER */
+
+#divUserManager .SectionBox { margin-bottom: 10px; padding: 7px; }
+#divUserManager .Date { padding-top: 5px; width: 110px; font-size: 8pt; }
+
+#divUserManager #divPendingReviewsToggle { color: #800; }
+#divUserManager #divNotificationMessages table { margin-bottom: 10px; }
+#divUserManager #divNotificationBids table { margin-bottom: 10px; }
+#divUserManager #divNotificationsToggle { color: #800; }
+
+#divUserManager #divServiceRequests { display: none; }
+#divUserManager #divBids { display: none; }
+#divUserManager #divBids .AcceptedStatus { color: #080; font-weight: bold; }
+
+#divUserManager #divInfoManager div { padding-bottom: 4px; }
+#divUserManager #divInfoManager div a { padding-bottom: 4px; color:#3a3a3a; }
+#divUserManager #divInfoManager img { margin-bottom: 1px; }

@@ -1,0 +1,43 @@
+    VERSION DATE       TYPE   CHANGES
+    2.1.4   2009/01/21 NEW    'WP-EasyArchives' plugin is now supported.
+                       MODIFY Optimize SQL to select the copyright years. (Thanks kouz)
+                       REMOVE emoved supported for 'Subscribe to Comments' plugin.
+                       FIX    Fixed 'Edit link'.
+    2.1.3   2009/01/05 FIX    Added 'rel="external nofollow"' tag to the comment links.
+    2.1.2   2009/01/02 MODIFY Combine 'search.php' with 'archive.php'.
+                       MODIFY Moved all the .mo files to 'languages' directory.
+                       MODIFY Using conditional comments as CSS hack for IE6.
+                       FIX    Apply translations to 'Current Theme Options'.
+                       FIX    Fixed REPLY and QUERY events in Opera Browsers.
+                       FIX    Fixed a weird problem when people updated to WordPress 2.7.
+                       FIX    Apply translations to 'Search Results'.
+                       FIX    Fixed the style of page navigation in IE browsers.
+                       FIX    Submenu are disabled when remove feeds from header, this bug now fixed.
+                       REMOVE Removed supported for 'SRG Clean Archives' plugin.
+    2.1.1   2008/11/29 MODIFY Changed '<?=' to '<?php echo'.
+    2.1     2008/11/27 NEW    Added style for image captions.
+                       NEW    Added 2-level menu.
+                       NEW    Added 'Show categories as menu' option.
+                       MODIFY Moved about info from TOP to FOOTER.
+                       FIXED  Fixed login/logout links on comment page, again.
+                       FIXED  Fixed the mothod to get copyright term.
+    2.0.1   2008/11/15 FIXED  Fixed bugs in localization.
+    2.0     2008/11/15 NEW    Compatible with WordPress 2.7 (thread comments ready).
+                       NEW    Compatible with WP-RecentComments 1.6.
+                       NEW    New 404 error page.
+                       NEW    Added meta options, include description and keywords.
+                       NEW    Google CSE is supported.
+                       NEW    WP-Syntax plugin is supportted.
+                       NEW    Show the feed reader list when mouse over on feed button.
+                       MODIFY New style applied to the avatars.
+                       MODIFY New style applied to the trackbacks and pingbacks.
+                       MODIFY Update the JavaScript and using namespace.
+                       FIXED  Fixed style for tag cloud in sidebar.
+                       FIXED  Fixed login/logout links on comment page.
+                       FIXED  Fixed style for WP-Syntax.
+                       FIXED  Fixed <pre> style for IE6.
+                       FIXED  Fixed login/logout links on comment page.
+    1.4.10  2008/10/06 NEW    Created this CHANGLOG file.
+                       NEW    Added 'reply' button to all comments.
+                       MODIFY Adding 'HTTP://' to the feed URL.
+                       FIXED  Fixed image left/right alignment in posts.

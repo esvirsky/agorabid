@@ -1,0 +1,7 @@
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^agorabid\.local$ [NC]
+RewriteRule ^(.*)$ http://www.agorabid.local/$1 [R=301,L]
+
+RewriteCond $1 !^(index\.php|js|css|images|cache|robots\.txt|favicon\.ico|ab_sitemap.xml|blog)
+RewriteRule ^(.*)$ /index.php/$1 [L]
