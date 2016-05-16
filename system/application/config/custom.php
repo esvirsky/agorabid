@@ -6,7 +6,7 @@
 $config['email_server_from'] = "support@localhost";
 $config['site_name'] = "AgoraBid";
 $config['site_domain'] = "agorabid.local";
-$config['google_key'] = "ABQIAAAAqA59lRzw8hCV8qsdKesQJBT44xOhKqzEuGmB2idbkr-N9cD1WhQOarL9CCiZ5yUokgBWHLaC2vIRmg";
+$config['google_key'] = "ABQIAAAAqA59lRzw8hCV8qsdKesQJBT44xOhKqzEuGmB2idbkr-N9cD1WhQOarL9CCiZ5yUokgBWHLaC2vI34k";
 
 $config['default_login_destination'] = "/user/manager";
 
